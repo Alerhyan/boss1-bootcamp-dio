@@ -2,3 +2,4 @@
 // Criando variaveis com xp de cada Heroi.
 let nomeHeroi = "Prodigy"
 let xpHeroi = 2250
+
