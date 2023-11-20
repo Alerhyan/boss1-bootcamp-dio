@@ -1,10 +1,14 @@
+//Pedido para escolha do Herói.
+console.log("Escolha o seu herói -->")
+
 // Criando variavel com nome de heroi.
-let nomeHeroi = "Prodigy"    
+let nomeHeroi = "Prodigy"   
+console.log("Bem vindo " + nomeHeroi)
 
 // Criando variavel com xp do Heroi.
-let xpHeroi = 10001
+let xpHeroi = 580
 
-// Criando variaveis niveis de XP, pois posso alterar como configurar os nomes dos niveis.
+// Criando variaveis niveis de XP, pois posso alterar os nomes dos niveis conforme necessidade por exemplo nivel 1, nivel 2, etc.
 let xp1 = "Nivel de Ferro" //Se XP for menor do que 1.000 = Ferro
 let xp2 = "Nivel de Bronze" // Se XP for entre 1.001 e 2.000 = Bronze
 let xp3 = "Nivel de Prata" // Se XP for entre 2.001 e 5.000 = Prata
@@ -14,7 +18,7 @@ let xp6 = "Nivel Ascedente" // Se XP for entre 8.001 e 9.000 = Ascendente
 let xp7 = "Nivel Imortal" // Se XP for entre 9.001 e 10.000= Imortal
 let xp8 = "Nivel Radiante" // Se XP for maior ou igual a 10.001 = Radiante
 
-
+// Estrutura de decisão conforme variaveis acima.
 if (xpHeroi < 1000)
 {
 console.log ("O Heroi de Nome " + nomeHeroi + " está no " + xp1)
@@ -55,3 +59,5 @@ else if (xpHeroi >= 10000)
 console.log ("O Heroi de Nome " + nomeHeroi + " está no " + xp8)
 }
 
+// Como não tenho muita experiencia ainda na programação demorei um pouco para solucionar 
+// o desafio pois troquei o sinal de && (and) por || (or).
