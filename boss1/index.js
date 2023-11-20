@@ -2,9 +2,9 @@
 let nomeHeroi = "Prodigy"    
 
 // Criando variavel com xp do Heroi.
-let xpHeroi = 2500
+let xpHeroi = 10001
 
-// Criando variaveis niveis de XP.
+// Criando variaveis niveis de XP, pois posso alterar como configurar os nomes dos niveis.
 let xp1 = "Nivel de Ferro" //Se XP for menor do que 1.000 = Ferro
 let xp2 = "Nivel de Bronze" // Se XP for entre 1.001 e 2.000 = Bronze
 let xp3 = "Nivel de Prata" // Se XP for entre 2.001 e 5.000 = Prata
@@ -20,32 +20,32 @@ if (xpHeroi < 1000)
 console.log ("O Heroi de Nome " + nomeHeroi + " está no " + xp1)
 }
 
-else if (xpHeroi >= 1001 || xpHeroi <= 2000)
+else if (xpHeroi >= 1001 && xpHeroi <= 2000)
 {
 console.log ("O Heroi de Nome " + nomeHeroi + " está no " + xp2)
 }
 
-else (xpHeroi >= 2001 || xpHeroi <= 5000)
+else if (xpHeroi >= 2001 && xpHeroi <= 5000)
 {
 console.log ("O Heroi de Nome " + nomeHeroi + " está no " + xp3)
 }
 
-if (xpHeroi >= 5001 || xpHeroi <= 7000)
+else if (xpHeroi >= 5001 && xpHeroi <= 7000)
 {
 console.log ("O Heroi de Nome " + nomeHeroi + " está no " + xp4)
 }
 
-else if (xpHeroi >= 7001 || xpHeroi <= 8000)
+else if (xpHeroi >= 7001 && xpHeroi <= 8000)
 {
 console.log ("O Heroi de Nome " + nomeHeroi + " está no " + xp5)
 }
 
-else (xpHeroi >= 8001 || xpHeroi <= 9000)
+else if (xpHeroi >= 8001 && xpHeroi <= 9000)
 {
 console.log ("O Heroi de Nome " + nomeHeroi + " está no " + xp6)
 }
 
-if (xpHeroi >= 9001 || xpHeroi <= 10000)
+else if (xpHeroi >= 9001 && xpHeroi <= 10000)
 {
 console.log ("O Heroi de Nome " + nomeHeroi + " está no " + xp7)
 }
